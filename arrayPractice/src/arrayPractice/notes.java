@@ -8,18 +8,15 @@ public class notes {
 		for(int i=0;i<grades.length;i++) {
 			System.out.println(grades[i]);
 		}
-		ArrayList<Integer> grades1=new ArrayList<Integer>();
-		grades1.add(0);
-		grades1.add(25);
-		grades1.add(50);
-		grades1.add(75);
-		grades1.add(100);
-		System.out.println(grades1);
-		for(int i=0;i<grades1.size();i++) {
-			System.out.println(grades1.get(i));
-		}
-		for(Integer grade:grades1) {
-			System.out.println(grade);
-		}
+		ArrayList<String> band=new ArrayList<String>();
+		band.add("Lindsey");
+	  	band.add("Mick");
+		band.add("Stevie");
+		band.add("Dave");
+		band.add("Christine");
+		band.add(band.remove(2));
+		band.set(0,band.get(4));
+
+		System.out.println(band);
 	}
 }
